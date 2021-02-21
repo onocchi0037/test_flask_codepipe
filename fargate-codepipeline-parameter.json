@@ -1,0 +1,26 @@
+[
+    {
+      "ParameterKey": "Cluster",
+      "ParameterValue": "demo-flask-cluster"
+    },
+    {
+      "ParameterKey": "Service",
+      "ParameterValue": "demo-flask-service"
+    },
+    {
+      "ParameterKey": "ContainerName",
+      "ParameterValue": "demo-flask-container"
+    },
+    {
+      "ParameterKey": "ECRName",
+      "ParameterValue": "kaji-test-ecr"
+    },
+    {
+      "ParameterKey": "CodeCommitRepositoryName",
+      "ParameterValue": "YOUR_CODECOMMIT_REPO_NAME"
+    },
+    {
+      "ParameterKey": "PipelineName",
+      "ParameterValue": "YOUR_PIPELINE_NAME"
+    }
+  ]

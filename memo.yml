@@ -1,0 +1,4 @@
+aws cloudformation create-stack --stack-name ono-stack-004 \
+--template-body file:///home/ubuntu/demo-flask/sample-fargate.yaml \
+--parameters file:///home/ubuntu/demo-flask/fargate.parameter.json \
+--capabilities CAPABILITY_NAMED_IAM

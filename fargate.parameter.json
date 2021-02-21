@@ -1,0 +1,54 @@
+[
+    {
+      "ParameterKey": "ProjectName",
+      "ParameterValue": "demo-flask"
+    },
+    {
+      "ParameterKey": "VpcId",
+      "ParameterValue": "vpc-0b72124f40f6f48b5"
+    },
+    {
+      "ParameterKey": "ALBSecurityGroupId",
+      "ParameterValue": "sg-00f96d06346929cb6"
+    },
+    {
+      "ParameterKey": "ALBSubnetId1",
+      "ParameterValue": "subnet-0cd1eeb5238218537"
+    },
+    {
+      "ParameterKey": "ALBSubnetId2",
+      "ParameterValue": "subnet-0c64ace7506aaa3fa"
+    },
+    {
+      "ParameterKey": "ECSSecurityGroupId",
+      "ParameterValue": "sg-00f96d06346929cb6"
+    },
+    {
+      "ParameterKey": "ECSSubnetId1",
+      "ParameterValue": "subnet-0cd1eeb5238218537"
+    },
+    {
+      "ParameterKey": "ECSSubnetId2",
+      "ParameterValue": "subnet-0c64ace7506aaa3fa"
+    },
+    {
+      "ParameterKey": "ECSImageName",
+      "ParameterValue": "633088821077.dkr.ecr.ap-northeast-1.amazonaws.com/kaji-test-ecr:latest"
+    },
+    {
+      "ParameterKey": "DBMasterName",
+      "ParameterValue": "roborobo-stage"
+    },
+    {
+      "ParameterKey": "DBPass",
+      "ParameterValue": "postgres"
+    },
+    {
+      "ParameterKey": "DBEndPoint",
+      "ParameterValue": "roborobo-stage.ce93vpi8tloc.ap-northeast-1.rds.amazonaws.com"
+    },
+    {
+      "ParameterKey": "DBNAME",
+      "ParameterValue": "roborobo"
+    }
+  ]
